@@ -1,0 +1,47 @@
+body {
+  background-color: #ccc;
+  font-size: 18px;
+  line-height: 1.5rem;
+}
+
+.paper {
+  background-color: #fff;
+  margin: 50px 150px 0;
+  min-height: 100vh;
+  padding: 100px
+}
+
+.sender, .closing {  
+  width: 30%;
+  margin-left:auto;  
+}
+
+.sender p,
+.closing p, .recipient p{
+ margin-block: 0;
+}
+
+.salute {
+  font-style: italic;
+}
+
+.subject {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;  
+}
+
+.body {
+  text-align: justify; 
+}
+
+.closing {
+  margin-top: 100px;
+}
+
+.sign {
+  background-color: #000;
+  height: 1px;
+  width: 40%;
+  margin: 40px auto 15px 0;
+}
